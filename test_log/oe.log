@@ -1,0 +1,69 @@
+Installing dependencies...
+OS                                              2.8 kB/s | 3.0 kB     00:01    
+EPOL                                            3.5 kB/s | 3.0 kB     00:00    
+extra                                           4.0 kB/s | 3.0 kB     00:00    
+update                                          4.0 kB/s | 3.0 kB     00:00    
+everything                                      3.6 kB/s | 3.0 kB     00:00    
+debuginfo                                       3.9 kB/s | 3.0 kB     00:00    
+Dependencies resolved.
+================================================================================
+ Package               Architecture    Version                 Repository  Size
+================================================================================
+Installing:
+ jsoncpp-devel         riscv64         1.9.5-3.oe2309          OS          31 k
+ libcurl-devel         riscv64         8.1.2-4.oe2309          OS         145 k
+ libyaml-devel         riscv64         0.2.5-5.oe2309          OS          18 k
+ libzip-devel          riscv64         1.9.2-1.oe2309          OS          15 k
+Installing dependencies:
+ jsoncpp               riscv64         1.9.5-3.oe2309          OS          87 k
+ libzip                riscv64         1.9.2-1.oe2309          OS          79 k
+
+Transaction Summary
+================================================================================
+Install  6 Packages
+
+Total download size: 374 k
+Installed size: 1.3 M
+Downloading Packages:
+(1/6): jsoncpp-devel-1.9.5-3.oe2309.riscv64.rpm  20 kB/s |  31 kB     00:01    
+(2/6): jsoncpp-1.9.5-3.oe2309.riscv64.rpm        50 kB/s |  87 kB     00:01    
+(3/6): libcurl-devel-8.1.2-4.oe2309.riscv64.rpm  81 kB/s | 145 kB     00:01    
+(4/6): libyaml-devel-0.2.5-5.oe2309.riscv64.rpm  90 kB/s |  18 kB     00:00    
+(5/6): libzip-devel-1.9.2-1.oe2309.riscv64.rpm  153 kB/s |  15 kB     00:00    
+(6/6): libzip-1.9.2-1.oe2309.riscv64.rpm        456 kB/s |  79 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           181 kB/s | 374 kB     00:02     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : libzip-1.9.2-1.oe2309.riscv64                          1/6 
+  Running scriptlet: libzip-1.9.2-1.oe2309.riscv64                          1/6 
+  Installing       : jsoncpp-1.9.5-3.oe2309.riscv64                         2/6 
+  Running scriptlet: jsoncpp-1.9.5-3.oe2309.riscv64                         2/6 
+  Installing       : jsoncpp-devel-1.9.5-3.oe2309.riscv64                   3/6 
+  Installing       : libzip-devel-1.9.2-1.oe2309.riscv64                    4/6 
+  Installing       : libyaml-devel-0.2.5-5.oe2309.riscv64                   5/6 
+  Installing       : libcurl-devel-8.1.2-4.oe2309.riscv64                   6/6 
+  Running scriptlet: libcurl-devel-8.1.2-4.oe2309.riscv64                   6/6 
+  Verifying        : jsoncpp-1.9.5-3.oe2309.riscv64                         1/6 
+  Verifying        : jsoncpp-devel-1.9.5-3.oe2309.riscv64                   2/6 
+  Verifying        : libcurl-devel-8.1.2-4.oe2309.riscv64                   3/6 
+  Verifying        : libyaml-devel-0.2.5-5.oe2309.riscv64                   4/6 
+  Verifying        : libzip-1.9.2-1.oe2309.riscv64                          5/6 
+  Verifying        : libzip-devel-1.9.2-1.oe2309.riscv64                    6/6 
+
+Installed:
+  jsoncpp-1.9.5-3.oe2309.riscv64         jsoncpp-devel-1.9.5-3.oe2309.riscv64  
+  libcurl-devel-8.1.2-4.oe2309.riscv64   libyaml-devel-0.2.5-5.oe2309.riscv64  
+  libzip-1.9.2-1.oe2309.riscv64          libzip-devel-1.9.2-1.oe2309.riscv64   
+
+Complete!
+Installing ign-tools from source...
+Cloning ign-fuel-tools4 repository...
+Starting build process for ign-fuel-tools4...
+Installing ign-fuel-tools4...
+Verifying ign-fuel-tools4 installation with pkg-config...
+Error: pkg-config could not locate ign-fuel-tools4. Please check installation.
